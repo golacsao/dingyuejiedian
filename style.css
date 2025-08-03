@@ -1,0 +1,164 @@
+/* 全局样式 */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+/* 分类按钮区域 */
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.category-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+  font-size: 1rem;
+}
+
+.category-btn:hover {
+  background-color: #0056b3;
+}
+
+/* 广告位样式 */
+.ads {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.ad-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s;
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+}
+.ads a:nth-child(1) {
+  background-color: #e0f7fa; /* 浅蓝 */
+  color: #000;
+}
+
+.ads a:nth-child(2) {
+  background-color: #f1f8e9; /* 浅绿 */
+  color: #000;
+}
+
+.ads a:nth-child(3) {
+  background-color: #fff3e0; /* 浅橙 */
+  color: #000;
+}
+.ads a:nth-child(4) {
+  background-color: #e0f7fa; /* 浅蓝 */
+  color: #000;
+}
+
+.ads a:nth-child(5) {
+  background-color: #f1f8e9; /* 浅绿 */
+  color: #000;
+}
+
+.ads a:nth-child(6) {
+  background-color: #fff3e0; /* 浅橙 */
+  color: #000;
+}
+.ads a:nth-child(7) {
+  background-color: #e0f7fa; /* 浅蓝 */
+  color: #000;
+}
+
+.ads a:nth-child(8) {
+  background-color: #f1f8e9; /* 浅绿 */
+  color: #000;
+}
+
+.ads a:nth-child(9) {
+  background-color: #fff3e0; /* 浅橙 */
+  color: #000;
+}
+
+
+.ad-box:hover {
+  transform: translateY(-5px);
+}
+
+/* 分类详情页样式 */
+.links-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.link-column {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.link-card {
+  display: block;
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: #007bff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.2s;
+}
+
+.link-card:hover {
+  background-color: #eef4ff;
+}
+
+.back-btn {
+  display: block;
+  text-align: center;
+  margin-top: 40px;
+  text-decoration: none;
+  color: #007bff;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
